@@ -6,16 +6,16 @@ export default function Perfil() {
     <View style={styles.container}>
         <Image
         style={styles.foto}
-        source={require('../assets/PerfilProjeto.jpeg')}
+        source={require('../assets/PerfilAranha.jpg')}
       />
 
-      <Text style={styles.nome}>Sammuel Alves</Text>
+      <Text style={styles.nome}>Homem Aranha</Text>
 
       <Text style={styles.status}>Online</Text>
 
      <Button
         title="Enviar mensagem"
-        onPress={() => alert('Este é o perfil do Sammuel.')}
+        onPress={() => alert('Este é o perfil do Homem Aranha.')}
       />
     </View>
   );
